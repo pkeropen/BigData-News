@@ -1,0 +1,6 @@
+cd /opt/data
+
+1）将文件中的tab更换成逗号
+cat weblog.log|tr "\t" "," > weblog2.log
+2）将文件中的空格更换成逗号
+cat weblog2.log|tr " " "," > weblog.log

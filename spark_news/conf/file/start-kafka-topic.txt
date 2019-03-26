@@ -1,0 +1,22 @@
+
+#启动Kafka服务
+bin/kafka-server-start.sh config/server.properties &
+
+#创建业务数据topic
+bin/kafka-topics.sh --create --zookeeper hadoop01:2181 --topic weblogs --partitions 1 --replication-factor 2
+
+//create topic,副本数为1、分区数为1的topic,如果是配置了auto.create.topics.enable参数为true，可以忽略
+sh bin/kafka-topics.sh --create --zookeeper hadoop01:2181 --topic webCount --replication-factor 1 --partitions 1
+
+//producer
+sh /bin/kafka-console-producer --broker-list hadoop01:9092 --topic webCount
+
+//consumer
+sh /bin/kafka-console-consumer --zookeeper hadoop01:2181 --topic webCount --from-beginning
+
+//delete topic
+sh /bin/kafka-topics  --delete --zookeeper hadoop01  --topic webCount
+
+//topic list
+sh /bin/kafka-topics --zookeeper hadoop01:2181 --list
+
