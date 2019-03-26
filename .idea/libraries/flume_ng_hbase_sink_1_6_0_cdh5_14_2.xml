@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="flume-ng-hbase-sink-1.6.0-cdh5.14.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/hbase_flume/resources/flume-ng-hbase-sink-1.6.0-cdh5.14.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

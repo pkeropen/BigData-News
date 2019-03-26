@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.phoenix:phoenix-spark:4.9.0-HBase-1.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/phoenix/phoenix-spark/4.9.0-HBase-1.2/phoenix-spark-4.9.0-HBase-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/phoenix/phoenix-spark/4.9.0-HBase-1.2/phoenix-spark-4.9.0-HBase-1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/phoenix/phoenix-spark/4.9.0-HBase-1.2/phoenix-spark-4.9.0-HBase-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

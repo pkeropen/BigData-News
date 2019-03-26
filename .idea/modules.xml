@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/flume-ng-hbase-sink/flume-ng-hbase-sink.iml" filepath="$PROJECT_DIR$/flume-ng-hbase-sink/flume-ng-hbase-sink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark_news/BigData_News_Project.iml" filepath="$PROJECT_DIR$/spark_news/BigData_News_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark_news/spark-news.iml" filepath="$PROJECT_DIR$/spark_news/spark-news.iml" />
+    </modules>
+  </component>
+</project>
