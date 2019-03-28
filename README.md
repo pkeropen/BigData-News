@@ -1,22 +1,25 @@
 ##  基于Spark2.2新闻网大数据实时系统项目
 
-### 1. 项目代码是参考[基于Spark2.x新闻网大数据实时分析可视化系统项目](https://blog.csdn.net/u011254180/article/details/80172452) ，谢谢作者分享心得！
+### 1. 项目代码是参考[基于Spark2.x新闻网大数据实时分析可视化系统项目](https://blog.csdn.net/u011254180/article/details/80172452) 或者[大数据项目实战之新闻话题的实时统计分析](http://www.raincent.com/content-10-11077-1.html)，谢谢作者分享心得！
 
 ### 2.环境配置
 
 ##### 2.1 CDH-5.14.2 (安装步骤可参考[地址](https://blog.51cto.com/kaliarch/2122467))，关于版本是按实际操作， CDH的版本兼容性很好。
-```
-1. HBase
-2. Hive
-3. Flume
-4. Kafka
-5. HDFS + Yarn
-6. Oozie
-7. Hue
-8. Spark2
-9. Zookeeper
-10.Mysql
-```
+
+
+ |          | hadoop01 | hadoop02 | hadoop03
+-|----------|----------|----------|---------
+ |HDFS      | NameNode | DateNode | DataNode
+ |HBase     | HMaster、HRegionServer  | HRegionServer|  HRegionServer
+ |Hive      | Hive 
+ |Flume     | Flume    | Flume    | Flume
+ |Kafka     | Kafka    
+ |YARN      | ResourceManager | NodeManager | NodeManager
+ |Oozie     | Oozie
+ |Hue       | Hue
+ |Spark2    | Spark
+ |Zookeeper | Zookeeper
+ |MySQL     | MySQL
 
 ##### 2.2 主机配置
 ```
@@ -26,7 +29,11 @@
 
 ```
 
-#### 2.3 安装依赖包
+##### 2.3 项目架构
+
+
+
+##### 2.4 安装依赖包
 ```
 # yum  -y  install psmisc MySQL-python at bc bind-libs bind-utils cups-client cups-libs cyrus-sasl-gssapi cyrus-sasl-plain ed fuse fuse-libs httpd httpd-tools keyutils-libs-devel krb5-devel libcom_err-devel libselinux-devel libsepol-devel libverto-devel mailcap noarch mailx mod_ssl openssl-devel pcre-devel postgresql-libs python-psycopg2 redhat-lsb-core redhat-lsb-submod-security  x86_64 spax time zlib-devel wget psmisc
 # chmod +x /etc/rc.d/rc.local

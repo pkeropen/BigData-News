@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e7f0366-f474-4000-ba89-a0304e3cef72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spark_news" beforeDir="false" afterPath="$PROJECT_DIR$/spark_news" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark_news/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_news/LICENSE" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hbase_flume/target/" />
     <ignored path="$PROJECT_DIR$/spark_news/target/" />
@@ -17,10 +18,11 @@
     <session id="579836020">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.63" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -46,8 +48,8 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spark_news/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -208,7 +210,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33901918" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32942432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -274,16 +276,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/hbase_flume/resources/flume-ng-hbase-sink-1.6.0-cdh5.14.2.jar!/org/apache/flume/sink/hbase/AsyncHbaseEventSerializer.class" />
     <entry file="file://$PROJECT_DIR$/flume-ng-hbase-sink/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spark_news/src/main/java/com/vita/bigdata/collect/ReadWriteLog.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -303,8 +302,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spark_news/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -358,7 +357,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>flume-ng-hbase-sink</last-edited>
+          <last-edited>spark-news</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
