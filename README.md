@@ -8,7 +8,7 @@
 
 
  |Service   | hadoop01 | hadoop02 | hadoop03
- |----------|----------|----------|---------
+ |:----------|:----------|:----------|:---------
  |HDFS      | NameNode | DateNode | DataNode
  |HBase     | HMaster、HRegionServer  | HRegionServer|  HRegionServer
  |Hive      | Hive 
@@ -503,6 +503,6 @@ sh /bin/spark2-submit \
 
 ##### 9.5 在Hadoop02，Hadoop03 执行/opt/weblog-shell.sh , 启动 StructuredStreamingKafka来从kafka中取得数据，处理后存到mysql中
 
-##### 9.6 登录mysql ，查看数据表
+##### 9.6 登录MySQL ，查看webCount表
 
 
