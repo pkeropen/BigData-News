@@ -7,8 +7,8 @@
 ##### 2.1 CDH-5.14.2 (安装步骤可参考[地址](https://blog.51cto.com/kaliarch/2122467))，关于版本是按实际操作， CDH的版本兼容性很好。
 
 
- |          | hadoop01 | hadoop02 | hadoop03
--|----------|----------|----------|---------
+ |Service   | hadoop01 | hadoop02 | hadoop03
+ |----------|----------|----------|---------
  |HDFS      | NameNode | DateNode | DataNode
  |HBase     | HMaster、HRegionServer  | HRegionServer|  HRegionServer
  |Hive      | Hive 
@@ -31,7 +31,7 @@
 
 ##### 2.3 项目架构
 
-
+![项目架构图](https://github.com/pkeropen/BigData-News/blob/master/pic/Architecture.png)
 
 ##### 2.4 安装依赖包
 ```
