@@ -8,11 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="flume-ng-hbase-sink" />
         <module name="spark-news" />
+        <module name="structured-streaming-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BigData_News_Project" target="1.8" />
       <module name="flume-ng-hbase-sink" target="1.6" />
       <module name="spark-news" target="1.8" />
+      <module name="structured-streaming-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -22,15 +22,16 @@ object StructuredStreamingKafka {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession
       .builder()
-      .master("yarn")
+      .master("local[*]")
       .appName("streaming")
       .getOrCreate()
 
     val df = spark
       .readStream
       .format("kafka")
-      .option("kafka.bootstrap.servers", "hadoop01:9092")
-      .option("subscribe", "webCount")
+//      .option("kafka.bootstrap.servers", "hadoop01:9092")
+      .option("kafka.bootstrap.servers", "localhost:9092")
+      .option("subscribe", "test")
       .load()
 //        val df = spark.readStream
 //          .format("socket")
@@ -58,12 +59,19 @@ object StructuredStreamingKafka {
     val writer = new JDBCSink(url, username, password)
     //        val writer = new MysqlSink(url, username, password)
 
+//    val query = titleCount
+//      .writeStream
+//      .foreach(writer)
+//      .outputMode("update")
+//      .trigger(ProcessingTime("5 seconds"))
+//      .start()
+
     val query = titleCount
       .writeStream
-      .foreach(writer)
       .outputMode("update")
       .trigger(ProcessingTime("5 seconds"))
-      .start()
+      .format("console")
+        .start()
 
     query.awaitTermination()
   }
