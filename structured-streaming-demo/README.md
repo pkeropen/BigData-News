@@ -1,4 +1,4 @@
-## Structured Streaming + Kafka 集成（Kafka broker version 0.10.0 or high）
+## Structured Streaming + Kafka 集成 + Redis管理Offset（Kafka broker version 0.10.0 or high）
 
 Google一下发现 Structured Streaming + Kafka集成，记录Offset的文章挺少的，我自己摸索一下，写了一个DEMO。[Github地址](https://github.com/pkeropen/BigData-News/tree/master/structured-streaming-demo)
 
