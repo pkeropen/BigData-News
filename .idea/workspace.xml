@@ -7,23 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e7f0366-f474-4000-ba89-a0304e3cef72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_0_8_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark_news/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spark_news/BigData_News_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_news/BigData_News_Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark_news/LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spark_news/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_news/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark_news/src/main/scala/com/vita/spark/StructuredStreamingKafka.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_news/src/main/scala/com/vita/spark/StructuredStreamingKafka.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structured-streaming-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/structured-streaming-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/producer/TestProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/producer/TestProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/spark/streaming/StructuredStreamingOffset.scala" beforeDir="false" afterPath="$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/spark/streaming/StructuredStreamingOffset.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structured-streaming-demo/structured-streaming-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/structured-streaming-demo/structured-streaming-demo.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hbase_flume/target/" />
     <ignored path="$PROJECT_DIR$/spark_news/target/" />
@@ -43,131 +36,134 @@
     <session id="579836020">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.63" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="10" />
           <entry key="Dockerfile" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="6" />
-          <entry key="Markdown" value="2" />
-          <entry key="Scala" value="4" />
+          <entry key="JAVA" value="7" />
+          <entry key="Log" value="3" />
+          <entry key="Markdown" value="3" />
+          <entry key="Scala" value="18" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="11" />
-          <entry key="JAVA" value="164" />
+          <entry key="JAVA" value="286" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Scala" value="1076" />
-          <entry key="XML" value="2" />
+          <entry key="Scala" value="5748" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5121951">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/spark/streaming/StructuredStreamingOffset.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#34#78#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/structured-streaming-demo/pom.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-                </state>
-              </provider>
-              <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/producer/TestProducer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1032#1047#0" expanded="true" />
-                    <element signature="e#1204#1220#0" expanded="true" />
-                    <element signature="e#1355#1370#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/consumer/TestKafkaConsumer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="488">
-                  <caret line="27" column="62" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="62" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#912#928#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/spark_news/src/main/scala/com/vita/spark/StructuredStreamingKafka.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="325">
-                  <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#24#68#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.jar!/org/apache/spark/sql/streaming/DataStreamWriter.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.jar!/org/apache/spark/sql/streaming/Trigger.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="250">
-                  <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/spark/streaming/writer/RedisWriteKafkaOffset.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="25" />
+              <folding>
+                <element signature="e#41#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spark_news/src/main/scala/com/vita/spark/StructuredStreamingKafka.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1334">
+              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+              <folding>
+                <element signature="e#24#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/producer/TestProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1614#1629#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/spark/streaming/StructuredStreamingOffset.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structured-streaming-demo/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="691">
+                <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/redies/RedisSingle.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+              <folding>
+                <element signature="e#25#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2075">
+              <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spark_news/src/main/scala/com/vita/spark/MysqlSink.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -178,9 +174,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>KeyType</find>
-      <find>zookeeper</find>
-      <find>kafka</find>
       <find>titleName</find>
       <find>path</find>
       <find>ount</find>
@@ -188,8 +181,29 @@
       <find>log</find>
       <find>spark-sql-kafka</find>
       <find>groupBy</find>
-      <find>count</find>
       <find>weblog</find>
+      <find>3060060</find>
+      <find>3060070</find>
+      <find>3060080</find>
+      <find>3060091</find>
+      <find>3060092</find>
+      <find>3060857</find>
+      <find>3061040</find>
+      <find>910</find>
+      <find>startOffset</find>
+      <find>start</find>
+      <find>34</find>
+      <find>45</find>
+      <find>44</find>
+      <find>co</find>
+      <find>returnJedis</find>
+      <find>SUCCESS_STATUS_LONG</find>
+      <find>setTime</find>
+      <find>init()</find>
+      <find>init</find>
+      <find>jedis error</find>
+      <find>count</find>
+      <find>context</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,10 +219,16 @@
         <option value="$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/consumer/TestKafkaConsumer.java" />
         <option value="$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/TestDocker.java" />
         <option value="$PROJECT_DIR$/structured-streaming-demo/Dockerfile" />
-        <option value="$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/producer/TestProducer.java" />
         <option value="$PROJECT_DIR$/spark_news/pom.xml" />
+        <option value="$PROJECT_DIR$/structured-streaming-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/Constants.scala" />
         <option value="$PROJECT_DIR$/spark_news/src/main/scala/com/vita/spark/StructuredStreamingKafka.scala" />
+        <option value="$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/spark/streaming/RedisWriteKafkaOffset.scala" />
+        <option value="$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/redies/RedisSingle.scala" />
+        <option value="$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/producer/TestProducer.java" />
+        <option value="$PROJECT_DIR$/structured-streaming-demo/README.md" />
         <option value="$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/spark/streaming/StructuredStreamingOffset.scala" />
+        <option value="$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/spark/streaming/writer/RedisWriteKafkaOffset.scala" />
       </list>
     </option>
   </component>
@@ -220,9 +240,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="113" />
-    <option name="y" value="2" />
-    <option name="width" value="1862" />
+    <option name="x" value="76" />
+    <option name="y" value="3" />
+    <option name="width" value="1940" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -233,8 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,6 +273,45 @@
             </path>
             <path>
               <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
               <item name="structured-streaming-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,32 +331,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
-              <item name="structured-streaming-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
-              <item name="structured-streaming-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
-              <item name="structured-streaming-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
@@ -314,22 +345,56 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="vita" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
+              <item name="structured-streaming-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="vita" type="462c0819:PsiDirectoryNode" />
+              <item name="redies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
+              <item name="structured-streaming-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="vita" type="462c0819:PsiDirectoryNode" />
               <item name="streaming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigData-News" type="b2602c69:ProjectViewProjectNode" />
+              <item name="structured-streaming-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="vita" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="writer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://C:/Users/vita/.m2/repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/structured-streaming-demo" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\spark\BigData-News\structured-streaming-demo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\spark\BigData-News\hbase_flume\src\main\java" />
       <recent name="D:\project\spark\BigData-News\hbase_flume\src\main" />
@@ -348,7 +413,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestProducer (1)">
+  <component name="RunManager" selected="Application.TestProducer">
+    <configuration name="RedisSingle" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.vita.redies.RedisSingle" />
+      <module name="structured-streaming-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vita.redies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StructuredStreamingKafka" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.vita.spark.StructuredStreamingKafka" />
       <module name="BigData_News_Project" />
@@ -367,20 +445,7 @@
       <module name="structured-streaming-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vita.spark.streaming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestKafkaConsumer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.vita.kafka.consumer.TestKafkaConsumer" />
-      <module name="structured-streaming-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vita.kafka.consumer.*" />
+          <option name="PATTERN" value="com.vita.spark.streaming.writer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -474,17 +539,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="structured-streaming-demo/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="structured-streaming-demo/Dockerfile" />
-          <option name="startBrowserSettings">
-            <browser url="http://127.0.0.1" />
-          </option>
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="docker-deploy" factoryName="docker-image" server-name="Docker">
       <deployment type="docker-image">
         <settings>
@@ -503,19 +557,19 @@
     </configuration>
     <list>
       <item itemvalue="Docker.test" />
-      <item itemvalue="Application.TestKafkaConsumer" />
-      <item itemvalue="Docker.structured-streaming-demo/Dockerfile" />
+      <item itemvalue="Application.TestProducer" />
       <item itemvalue="Application.TestProducer (1)" />
       <item itemvalue="Application.StructuredStreamingOffset" />
       <item itemvalue="Application.StructuredStreamingKafka" />
+      <item itemvalue="Application.RedisSingle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestProducer (1)" />
+        <item itemvalue="Application.TestProducer" />
         <item itemvalue="Application.StructuredStreamingOffset" />
+        <item itemvalue="Application.RedisSingle" />
         <item itemvalue="Application.StructuredStreamingKafka" />
-        <item itemvalue="Application.TestKafkaConsumer" />
-        <item itemvalue="Docker.structured-streaming-demo/Dockerfile" />
+        <item itemvalue="Application.TestProducer (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -555,23 +609,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14765458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32975295" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38238454" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.603652" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.528464" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5520945" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.31256714" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32975295" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.5488722" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.396348" />
       <window_info anchor="bottom" id="Docker" order="11" weight="0.34924078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -611,6 +665,52 @@
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/redies/RedisSingle.scala</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/redies/RedisSingle.scala</url>
+          <line>258</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/spark/streaming/writer/RedisWriteKafkaOffset.scala</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>redisSingle.set(Constants.REDIDS_KEY, &quot;value&quot;)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>redisSingle.set(Constants.REDIDS_KEY, offset)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new JedisPool(config, ip, port, 3000, auth)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/flume-ng-hbase-sink/src/main/java/com/vita/flume/sink/hbase/KfkAsyncHbaseEventSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -629,8 +729,8 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/hbase_flume/resources/flume-ng-hbase-sink-1.6.0-cdh5.14.2.jar!/org/apache/flume/sink/hbase/AsyncHbaseEventSerializer.class" />
     <entry file="file://$PROJECT_DIR$/flume-ng-hbase-sink/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spark_news/src/main/java/com/vita/bigdata/collect/ReadWriteLog.java" />
     <entry file="file://$PROJECT_DIR$/spark_news/conf/hive/hive-site.xml">
@@ -639,13 +739,7 @@
     <entry file="file://$PROJECT_DIR$/spark_news/BigData_News_Project.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/structured-streaming-demo/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/structured-streaming-demo/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -656,14 +750,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/TestDocker.java">
+    <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/TestDocker.java" />
+    <entry file="file://$PROJECT_DIR$/spark_news/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="119" column="47" selection-start-line="119" selection-start-column="47" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/consumer/TestKafkaConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="27" column="62" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -682,36 +781,130 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/structured-streaming-demo/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="500">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/consumer/TestKafkaConsumer.java">
+    <entry file="file://$PROJECT_DIR$/spark_news/src/main/scala/com/vita/spark/JDBCSink.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="27" column="62" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="62" />
+        <state relative-caret-position="900">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#912#928#0" expanded="true" />
+            <element signature="e#24#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spark_news/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar!/com/mysql/jdbc/Constants.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="119" column="47" selection-start-line="119" selection-start-column="47" selection-end-line="121" />
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/Constants.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2075">
+          <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark_news/src/main/scala/com/vita/spark/MysqlSink.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.jar!/org/apache/spark/sql/execution/streaming/ForeachSink.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark_news/src/main/scala/com/vita/spark/MySqlPool.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark_news/src/main/scala/com/vita/spark/test/Test1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/redies/RedisSingle.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark_news/src/main/scala/com/vita/spark/test/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/producer/TestProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1614#1629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid13916.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid9024.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replay_pid9024.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structured-streaming-demo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="691">
+            <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spark_news/src/main/scala/com/vita/spark/StructuredStreamingKafka.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        <state relative-caret-position="1334">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
           <folding>
             <element signature="e#24#68#0" expanded="true" />
           </folding>
@@ -720,23 +913,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/spark/streaming/StructuredStreamingOffset.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding>
-            <element signature="e#34#78#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="600">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/java/com/vita/kafka/producer/TestProducer.java">
+    <entry file="file://$PROJECT_DIR$/structured-streaming-demo/src/main/scala/com/vita/spark/streaming/writer/RedisWriteKafkaOffset.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1032#1047#0" expanded="true" />
-            <element signature="e#1204#1220#0" expanded="true" />
-            <element signature="e#1355#1370#0" expanded="true" />
+            <element signature="e#41#66#0" expanded="true" />
           </folding>
         </state>
       </provider>

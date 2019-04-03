@@ -3,6 +3,7 @@ package com.vita.kafka.producer;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Properties;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
@@ -21,15 +22,22 @@ public class TestProducer {
         props.put("batch.size", 16384);
         props.put("linger.ms", 1);
         props.put("buffer.memory", 33554432);
+        props.put("group.name", "vita");
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         //生产者发送消息
-        String topic = "test";
+        String topic = "log";
+        Random random = new Random();
         Producer<String, String> procuder = new KafkaProducer<String, String>(props);
-        for (int i = 1; i <= 1000; i++) {
-            String value = "value_" + i + ",x,x,s,f,g";
+        for (int i = 1; i <= 2; i++) {
+            String value = "value_" + i;
             ProducerRecord<String, String> msg = new ProducerRecord<String, String>(topic, value);
             procuder.send(msg);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
         //列出topic的相关信息
         List<PartitionInfo> partitions = new ArrayList<PartitionInfo>();

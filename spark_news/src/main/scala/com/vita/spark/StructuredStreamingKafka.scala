@@ -71,7 +71,7 @@ object StructuredStreamingKafka {
       .outputMode("update")
       .trigger(ProcessingTime("5 seconds"))
       .format("console")
-        .start()
+      .start()
 
     query.awaitTermination()
   }
